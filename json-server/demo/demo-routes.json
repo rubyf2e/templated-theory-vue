@@ -1,0 +1,6 @@
+{
+    "/api/posts": "/posts",
+    "/api/posts/:id": "/posts/:id",
+    "/vue/commits": "/commits",
+    "/vue/commits/:titlename": "/commits?titlename=:titlename"
+}

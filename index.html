@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title id="mediaTitle">{{ value.value }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo">Theory</a>
+            <nav id="nav">
+                <a :href="record.href"  v-for="record in value">{{ record.title }}</a>
+            </nav>
+            <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+        </div>
+    </header>
+    <!-- Banner -->
+    <section id="banner">
+        <h1>{{ value.h1 }}</h1>
+        <p>{{ value.p }}</p>
+    </section>
+    <!-- One -->
+    <section class="wrapper">
+        <div class="inner">
+            <div class="flex flex-3"  id="one">
+                <article v-for="record in value">
+                    <header>
+                        <h3>{{ record.h3 }}</h3>
+                    </header>
+                    <p>{{ record.p }}</p>
+                    <footer>
+                        <a href="#" class="button special">More</a>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </section>
+    <script src="vue/dist/vue.min.js"></script>
+    <script src="app.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

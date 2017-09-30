@@ -1,0 +1,47 @@
+{
+    "mediaTitle":
+    {
+        "value": "Theory by TEMPLATED"
+    },
+    "header": [
+    {
+        "href": "index.html",
+        "title": "Home",
+        "id": 1
+    },
+    {
+        "href": "generic.html",
+        "title": "Generic",
+        "id": 2
+    },
+    {
+        "href": "elements.html",
+        "title": "Elements",
+        "id": 3
+
+    }],
+    "headerTitle":
+    {
+        "h1": "歡迎",
+        "p": "測試"
+
+    },
+    "oneSection": [
+    {
+        "h3": "h3-開1",
+        "p": "標1",
+        "id": 1
+    },
+    {
+        "h3": "h3-開2",
+        "p": "標2",
+        "id": 2
+    },
+    {
+
+        "h3": "h3-開3",
+        "p": "標3",
+        "id": 3
+    }]
+
+}
